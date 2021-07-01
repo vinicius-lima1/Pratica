@@ -1,0 +1,16 @@
+void main(){
+  double n1 = 22;
+    double n2 = 20;
+  if(n1 > n2){
+    print('Primeiro valor maior');
+  }else if(n1 == n2){
+    print('Valores são iguais');
+  }else{
+    print('Segundo valor é maior');
+  }
+  
+  
+  
+  
+  
+}
