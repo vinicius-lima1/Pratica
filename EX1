@@ -1,0 +1,8 @@
+void main (){
+  double numero = 2;
+  if(numero <0){
+    print('Numero Negativo');
+  }else{ print('Numero Positivo');
+    } 
+  
+}
