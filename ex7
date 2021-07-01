@@ -1,0 +1,26 @@
+void main (){
+  
+  var peso = 50;
+  var altura = 170;
+  
+  if(peso/altura*altura < 16){
+    print('Magreza Grave');
+  }else if(peso/altura*altura == 16 <17){
+    print('Magreza Moderada');
+  }else if (peso/altura*altura == 17 <18.5){
+    print('Magreza Leve');
+  }else if(peso/altura*altura == 18.5 < 25){
+    print('Saudavel');
+  }else if(peso/altura*altura == 25 < 30){
+    print('Sobrepeso');
+  }else if(peso/altura*altura == 30 < 35){
+    print('Obesidade 1 Grau');
+  }else if(peso/altura*altura == 35 < 40){
+    print('Obesidade Severa');
+  }else{
+    print('Obesidade Morbida');
+  }
+  
+  
+  
+}
