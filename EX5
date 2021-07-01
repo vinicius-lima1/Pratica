@@ -1,0 +1,17 @@
+void main (){
+ 
+  var n1 = 9;
+  var n2 = 8;
+  var n3 = 10;
+  
+  if(n1 + n2 + n3/2 >=7){
+    print('Aprovado');
+  }else if(n1 + n2 + n3/2 ==6){
+    print('Exame');
+  }else{
+    print('Reprovado');
+  }
+  
+  
+  
+}
