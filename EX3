@@ -1,0 +1,14 @@
+void main(){
+  
+  double a = 2;
+  double b = 4;
+  double c = 5;
+  
+  double resultA = a + b * c;
+  print('Resultado 1 = $resultA');
+  
+  double resultB = b / a * c;
+  print('Resultado 2 = $resultB');
+  
+  
+}
