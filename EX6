@@ -1,0 +1,24 @@
+void main(){
+  
+  int n1 = 10;
+  int n2 = 8;
+  int n3 = 7;
+  int n4 = 9;
+  double media;
+  
+  media(n1 + n2 + n3 + n4)/4
+  
+  if(media == 10){
+    print('a');
+  }else if(media <= 9 &&media <= 8.9){
+    print('b');
+  }else if(media <= 8.9 && media <=8){
+    print('c');
+  }else if(media <= 8 && media <=7)
+    print('d');
+  }else {
+  print('f');
+}
+  
+}
+  
