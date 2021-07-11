@@ -1,15 +1,16 @@
-void main(){
   
-  int peso = 60;
+void main () {
   
-  if(peso <60){
-    print('P');
-  }else if(peso > 61 && peso <= 74){
-    print('M');
-  }else if(peso > 75 && peso <= 85){
-    print('G');
+  dynamic peso  = 100;
+  
+  if (peso <= 60) {
+    print ('P');
+  } else if (peso> 61 && peso <= 74) {
+    print ('M');
+  } else if (peso> 75 && peso <= 85) {
+    print ('G');
   }else{
-    print('GG');
+    print ('GG');
   
   }
   
