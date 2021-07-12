@@ -1,0 +1,17 @@
+void main () {
+  
+  int saldo = 5000;
+  int n1 = 6000;
+  dynamic saque = (saldo - n1);
+  
+  if(saque <= saldo){
+    print('Seu saldo é: $saque');
+  }else{
+    print('Saldo insuficiente');
+  }
+  
+  
+  
+  
+  
+}
